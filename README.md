@@ -35,7 +35,7 @@ Two main results should be pointed out: In one hand,  a measurement of the MORAN
 In the example, we can see the next distributions:
 
 
-Select quadrant | Cartogram selection | Grid selection |
+Selected quadrant | Cartogram selection | Grid selection |
 ----------|----------|----------|
 ![Grid qudrant](../master/img/grid/quadrant1/grid_clusteredLisaScatterPlotFrame.png?raw=true "Grid qudrant") | ![Simple grid](../master/img/grid/quadrant1/grid_clusteredCartogramNewFrame.png?raw=true "Grid qudrant") | ![Grid qudrant](../master/img/grid/quadrant1/grid_clusteredMapNewFrame.png?raw=true "Grid qudrant") |
 ![Grid qudrant](../master/img/grid/quadrant2/grid_clusteredLisaScatterPlotFrame.png?raw=true "Grid qudrant") | ![Simple grid](../master/img/grid/quadrant2/grid_clusteredCartogramNewFrame.png?raw=true "Grid qudrant") | ![Grid qudrant](../master/img/grid/quadrant2/grid_clusteredMapNewFrame.png?raw=true "Grid qudrant") |
@@ -65,5 +65,19 @@ Using Geoda, we can represent the same information by means of a cartogram visua
 ![Madrid](../master/img/madridCartogramNewFrame.png?raw=true "Madrid")
 
 Finally the MORAN`S I test shows a certain correlation between values of the points and its spatial autocorrelation
+ 
+![Madrid](../master/img/madridLisaScatterPlotFrame.png?raw=true "Madrid")
+
+
+
+Selected quadrant | Cartogram selection
+----------|----------|
+![Grid qudrant](../master/img/madrid/quadrant1/madridLisaScatterPlotFrame.png?raw=true "Grid qudrant") | ![Simple grid](../master/img/madrid/quadrant1/madridCartogramNewFrame.png?raw=true "Grid qudrant") |
+![Grid qudrant](../master/img/madrid/quadrant2/madridLisaScatterPlotFrame.png?raw=true "Grid qudrant") | ![Simple grid](../master/img/madrid/quadrant2/madridCartogramNewFrame.png?raw=true "Grid qudrant") |
+![Grid qudrant](../master/img/madrid/quadrant3/madridLisaScatterPlotFrame.png?raw=true "Grid qudrant") | ![Simple grid](../master/img/madrid/quadrant3/madridCartogramNewFrame.png?raw=true "Grid qudrant") |
+
+
+
+The pictures below show one zone with high-high spatial autocorrelation in the south and north of Madrid with high ratio of intrusions, and another one  with low-low spatial auto correlation located in the north-center of the city with low intrusions ratio. The last quadrant is related to high values representing isolated locations with high intrusion ratios useful for point out emergent intrusions areas.
  
 
