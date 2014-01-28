@@ -1,7 +1,8 @@
 Abstract
 ========
 
-This article will focus on the spatial autocorrelation, using the space in a plane to better understand the signals among close locations in the space and we apply this method in a public data related to the home intrusions among Spain provinces retrieved from the website of the [company](http://www.conseguridad.org/cp/).
+This article will focus on the spatial autocorrelation, using the space in a plane to better understand the signals among close locations in the space. We apply this method in a public dataset related to home intrusions among Spain provinces retrieved from the website of a security [company](http://www.conseguridad.org/cp/).
+
 
 
 
@@ -11,27 +12,26 @@ A common metric to measure and show the distributions and patterns of the spatia
 
 ![](http://upload.wikimedia.org/math/2/c/9/2c9a9580448f41debc44790e9b5e2031.png)
 
+A deep introduction to MORAN's I test and spatial autocorrelation can be founded at [Spatial Statistics: Spatial Autocorrelation][], [Geoda][], [R Ape library][],  [Moran's I in R][] or [Global Spatial Autocorrelation Indices][].
 
-In order to show a brief introduction, we propose the next grid points distributed in a plane
+In order to show a brief introduction, we propose the next grid points distributed in a plane (15x15)
 
 ![Simple grid](../master/img/grid_clusteredMapNewFrame.png?raw=true "Simple grid")
 
-Then, we apply two distributions of weights in each point, the left one is a clustered one and the right one is a random distribution.
+Then, we apply two distributions of weights in each point, the left one is a clustered distribution and the right one is a random distribution.
 
 Clustered | Random |
 ----------|----------|
 ![Simple grid](../master/img/grid_clusteredCartogramNewFrame.png?raw=true "Simple grid") | ![Simple grid](../master/img/grid_randomCartogramNewFrame.png?raw=true "Simple grid")  |
 
+By means of [Geoda][] software, we obtain the MORAN’s I score from the two previous distributions of weights.
 
-By means of Geoda [cite] software, we can obtain the MORAN’s I score from the two previous distributions of weights.
 
-
-Clustered MORAN’s I score | Random MORAN’s I score |
+Clustered dist. MORAN’s I score | Random dist. MORAN’s I score |
 ----------|----------|
 ![Simple grid](../master/img/grid_clusteredLisaScatterPlotFrame.png?raw=true "Simple grid") | ![Simple grid](../master/img/grid_randomLisaScatterPlotFrame.png?raw=true "Simple grid")  |
 
 
-A deep introduction to MORAN's I test and spatial autocorrelation can be founded at [Spatial Statistics: Spatial Autocorrelation][], [Geoda][], [R Ape library][],  [Moran's I in R][] or [Global Spatial Autocorrelation Indices][].
 Two main results should be pointed out: In one hand,  a measurement of the MORAN’s I test is 0.6744 in the clustered case and -0.00339 in the random case. These results show that near to 1 this metric show a high positive spatial autocorrelation in the data, near to -1 a high negative spatial autocorrelation and near to 0 a null spatial autocorrelation. In the other hand, each quadrant of the MORAN`s I test shows the four different spatial autocorrelation between points in the space, e.g. high-high, low-low, high-low, low-high.
 In the example, we can see the next distributions:
 
@@ -48,12 +48,12 @@ Selected quadrant | Cartogram selection | Grid selection |
 
 USE CASE: SPATIAL AUTO CORRELATION OF HOME INTRUSIONS IN SPAIN
 ==============================================================
-Nowadays business is starting to provide their data through online applications [citas de aplicaciones de datos]. Sometimes this data is wasted because companies do not exploit deeply the analysis or the visualizations. 
-In this article we explore how can convert this public data into a valuable asset for a company from a business intelligence point of view. 
+Nowadays business is starting to provide their data through online applications. Sometimes this data is wasted because companies do not exploit deeply the analysis or the visualizations. 
+In this use case study we explore how can convert this public data into a valuable asset for a company from a business intelligence point of view. 
 
 We should bear in mind that this data are provided by a private company and we can not be sure if this data has been manipulated or mistakes has been made in the grouped process, however we conduct this analysis with these assumptions.
 
-S.D. is one of the main security company across Spain , mainly especially in home alarm systems. A huge network of alarms belongs to this company, show they are able to explore the data related to intrusions  in homes. 
+S.D. is one of the main security company across Spain , mainly especially in home alarm systems. A huge network of alarms across Spain belongs to this company, show they are able to explore the data related to intrusions in homes. 
 We point out the first summary:
 
     > data <- read.csv("/Users/rmaestre/Projects/spatial-autocorrelation/data/data_normalized_SPAIN.csv", sep = "\t")
@@ -77,7 +77,7 @@ The figure below shows the distribution of intrusion incidents among Spain group
 
 ![Spain](../master/img/qgis/spain.png?raw=true "Spain")
 
- More detailed, we can show below the Madrid province divided by ZIP code, and color graduated by the number of intrusions, big circle means big intrusion area
+ More detailed, we can show below the Madrid province divided by ZIP code, and with color graduated points by the number of intrusions, big circle means big intrusion area.
  
 ![Madrid](../master/img/qgis/madrid.png?raw=true "Madrid")
  
@@ -99,12 +99,18 @@ Selected quadrant | Cartogram selection
 
 
 
-The pictures below show one zone with high-high spatial autocorrelation in the south and north of Madrid with high ratio of intrusions, and another one  with low-low spatial auto correlation located in the north-center of the city with low intrusions ratio. The last quadrant is related to high values representing isolated locations with high intrusion ratios useful for point out emergent intrusions areas.
+The pictures below show one zone with high-high spatial autocorrelation in the south and north of Madrid with high ratio of intrusions, and another one  with low-low spatial auto correlation located in the north-center of the city with low intrusions ratio. **The last quadrant is related to high values representing isolated locations with high intrusion ratios useful for point out emergent intrusions areas.**
  
 
-Spatial correlation
+Inference of Moran's I
 ===================
+The permutation method ([Análisis de datos espacio-temporales para la economía y el geomarketing][]) allow us to estimate the values of mean and standard deviation from Moran's I statistic through a random rearrangement of the spatial variable values, i.e. the n! Moran`s I statistic are calculated and the mean and standard deviation are calculated from the n! samples.
 
+The below picture shows a vertical line  with a high value with respect to the values calculated with the permutation method. Therefore the value of variable INTRUSION in its original spatial configuration is clearly above to I values from the 999 permutations performed.
+
+![Permutations method](../master/img/permutations_method.png?raw=true "Permutations method")
+
+Also a p-value is provided (p-value = 0.001), thus we can affirm that the variable Intrusion has a spatial dependence structure with a 99.999%.
 
 Conclusions
 ===================
@@ -119,3 +125,4 @@ We performed a simple analysis based on Moran's test with the main goal to under
   [Geoda]: http://geodacenter.asu.edu/ "Geoda"
   [R Ape library]: http://cran.r-project.org/web/packages/ape/ "APE R"
   [Global Spatial Autocorrelation Indices]: http://www.lpc.uottawa.ca/publications/moransi/moran.htm "GSAI"
+  [Análisis de datos espacio-temporales para la economía y el geomarketing]: http://www.researchgate.net/publication/256116713_Anlisis_de_datos_espacio-temporales_para_la_economa_y_el_geomarketing "Analisis de datos espacio temporales"
