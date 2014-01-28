@@ -121,7 +121,7 @@ We performed a simple analysis based on Moran's test with the main goal to under
 Also, more qualitative and quantitative variables from open datasets could be crossed with further analysis to test more hypothesis, e.g.: [Anuario Estadístico del Ministerio del Interior](http://www.interior.gob.es/file/63/63661/63661.pdf) about criminal rates in Spain.
 
 
-Other Spain provinces analyzed
+Other analysis
 ===================
 
 León
