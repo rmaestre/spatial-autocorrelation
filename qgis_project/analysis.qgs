@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>-3.3657923900546991</xmin>
-            <ymin>40.57694871704120487</ymin>
-            <xmax>-2.16458025383348351</xmax>
-            <ymax>41.3777568078553486</ymax>
+            <xmin>-10.4388520239383169</xmin>
+            <ymin>38.38225772984834094</ymin>
+            <xmax>0.4415499097787503</xmax>
+            <ymax>45.63585901899305242</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -23,25 +23,25 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="MADRID20140127175831317">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="MADRID" showFeatureCount="0">
+    <legend updateDrawingOrder="true" activeLayer="poligonos_ccaa_etrs8920140127175456522">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="MADRID" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="MADRID20140127175831317" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="MADRID20140127175831317" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="MUNICIPIO" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="MUNICIPIO" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="MUNICIPIO20140127175741324" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="MUNICIPIO20140127175741324" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="spain" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="spain" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="spain20140127175429881" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="spain20140127175429881" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="poligonos_ccaa_etrs89" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="poligonos_ccaa_etrs89" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="poligonos_ccaa_etrs8920140127175456522" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="poligonos_ccaa_etrs8920140127175456522" visible="1"/>
             </filegroup>
         </legendlayer>
     </legend>
@@ -333,9 +333,9 @@
                 <edittype labelontop="0" editable="1" type="0" name="intrusion"/>
                 <edittype labelontop="0" editable="1" type="0" name="variation"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -534,9 +534,9 @@
                 <edittype labelontop="0" editable="1" type="0" name="INE_MUN"/>
                 <edittype labelontop="0" editable="1" type="0" name="NOM_MUNICI"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -732,9 +732,9 @@
                 <edittype labelontop="0" editable="1" type="0" name="ID"/>
                 <edittype labelontop="0" editable="1" type="0" name="NOMBRE"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -936,9 +936,9 @@
                 <edittype labelontop="0" editable="1" type="0" name="VARIATION"/>
                 <edittype labelontop="0" editable="1" type="0" name="VARIATION_"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
