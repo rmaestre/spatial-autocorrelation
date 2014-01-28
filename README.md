@@ -118,6 +118,27 @@ First of all, we should be aware of the sources of the public data, in this stud
 
 We performed a simple analysis based on Moran's test with the main goal to understand the spatial autocorrelation of the data. We can use several opensource to analyze the Moran`s I test and study the distributions per quadrants.
 
+Also, more qualitative and quantitative variables from open datasets could be crossed with further analysis to test more hypothesis, e.g.: [Anuario Estadístico del Ministerio del Interior](http://www.interior.gob.es/file/63/63661/63661.pdf) about criminal rates in Spain.
+
+
+Other Spain provinces analyzed
+===================
+
+León
+![Leon](../master/img/leon/leon.png?raw=true "Leon") 
+
+
+Selected quadrant | Cartogram selection
+----------|----------|
+![Leon qudrant](../master/img/leon/quadrant1/leonLisaScatterPlotFrame.png?raw=true "Leon qudrant") | ![Leon grid](../master/img/madrid/leon/quadrant1/leonCartogramNewFrame.png?raw=true "Leon qudrant") |
+![Leon qudrant](../master/img/leon/quadrant2/leonLisaScatterPlotFrame.png?raw=true "Leon qudrant") | ![Leon grid](../master/img/madrid/leon/quadrant2/leonCartogramNewFrame.png?raw=true "Leon qudrant") |
+![Leon qudrant](../master/img/leon/quadrant3/leonLisaScatterPlotFrame.png?raw=true "Leon qudrant") | ![Leon grid](../master/img/madrid/leon/quadrant3/leonCartogramNewFrame.png?raw=true "Leon qudrant") |
+
+p-value from permutations method
+
+![Leon](../master/img/leon/permutation_method.png?raw=true "Leon") 
+
+
 
   [Moran's_I]: http://en.wikipedia.org/wiki/Moran's_I        "Moran's_I"
   [Moran's I in R]:  http://www.ats.ucla.edu/stat/r/faq/morans_i.htm  "Yahoo Search"
