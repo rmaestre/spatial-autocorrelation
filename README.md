@@ -114,7 +114,7 @@ Also a p-value is provided (p-value = 0.001), thus we can affirm that the variab
 
 Conclusions
 ===================
-First of all, we should be aware of the sources of the public data, in this study, we used data from a private company; this company perhaps distributed this data with a marketing porpouse therefore we are not
+First of all, we should be aware of the sources of the public data, in this study, we used data from a private company; this company perhaps distributed this data with a marketing purpose therefore we should be cautious with the results.
 
 We performed a simple analysis based on Moran's test with the main goal to understand the spatial autocorrelation of the data. We can use several opensource to analyze the Moran`s I test and study the distributions per quadrants.
 
