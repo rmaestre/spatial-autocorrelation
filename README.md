@@ -130,9 +130,9 @@ León
 
 Selected quadrant | Cartogram selection
 ----------|----------|
-![Leon qudrant](../master/img/leon/quadrant1/leonLisaScatterPlotFrame.png?raw=true "Leon qudrant") | ![Leon grid](../master/img/madrid/leon/quadrant1/leonCartogramNewFrame.png?raw=true "Leon qudrant") |
-![Leon qudrant](../master/img/leon/quadrant2/leonLisaScatterPlotFrame.png?raw=true "Leon qudrant") | ![Leon grid](../master/img/madrid/leon/quadrant2/leonCartogramNewFrame.png?raw=true "Leon qudrant") |
-![Leon qudrant](../master/img/leon/quadrant3/leonLisaScatterPlotFrame.png?raw=true "Leon qudrant") | ![Leon grid](../master/img/madrid/leon/quadrant3/leonCartogramNewFrame.png?raw=true "Leon qudrant") |
+![Leon qudrant](../master/img/leon/quadrant1/leonLisaScatterPlotFrame.png?raw=true "Leon qudrant") | ![Leon grid](../master/img/leon/quadrant1/leonCartogramNewFrame.png?raw=true "Leon qudrant") |
+![Leon qudrant](../master/img/leon/quadrant2/leonLisaScatterPlotFrame.png?raw=true "Leon qudrant") | ![Leon grid](../master/img/leon/quadrant2/leonCartogramNewFrame.png?raw=true "Leon qudrant") |
+![Leon qudrant](../master/img/leon/quadrant3/leonLisaScatterPlotFrame.png?raw=true "Leon qudrant") | ![Leon grid](../master/img/leon/quadrant3/leonCartogramNewFrame.png?raw=true "Leon qudrant") |
 
 p-value from permutations method
 
