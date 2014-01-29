@@ -48,7 +48,7 @@ Selected quadrant | Cartogram selection | Grid selection |
 
 USE CASE: SPATIAL AUTO CORRELATION OF HOME INTRUSIONS IN SPAIN
 ==============================================================
-Nowadays business is starting to provide their data through online applications. Sometimes this data is wasted because companies do not exploit deeply the analysis or the visualizations. 
+Nowadays business are starting to provide their data through online applications. Sometimes this data is wasted because companies do not exploit deeply the analysis or the visualizations. 
 In this use case study we explore how can convert this public data into a valuable asset for a company from a business intelligence point of view. 
 
 We should bear in mind that this data are provided by a private company and we can not be sure if this data has been manipulated or mistakes has been made in the grouped process, however we conduct this analysis with these assumptions.
