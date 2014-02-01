@@ -90,6 +90,10 @@ Using Geoda, we can represent the same information by means of a cartogram visua
  
 ![Madrid](../master/img/madridCartogramNewFrame.png?raw=true "Madrid")
 
+Also a first boxplot of "intrusion" variable in Madrid is calculated again.
+
+![Spain boxplot](../master/img/madridBoxNewPlotFrame.png?raw=true "Spain boxplot")
+
 Finally the MORAN`s I test shows a certain correlation between values of the points and its spatial autocorrelation
  
 ![Madrid](../master/img/madridLisaScatterPlotFrame.png?raw=true "Madrid")
