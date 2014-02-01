@@ -73,6 +73,11 @@ We point out the first summary:
     3rd Qu.:  88.20                 
     Max.   :2292.60 
 
+Also a first boxplot of "intrusion" variable is calculated:
+
+![Spain boxplot](../master/img/spainBoxNewPlotFrame.png?raw=true "Spain boxplot")
+
+
 The figure below shows the distribution of intrusion incidents among Spain grouped by Zip code provided by S.D and provide the first approach to better understand the data.
 
 ![Spain](../master/img/qgis/spain.png?raw=true "Spain")
