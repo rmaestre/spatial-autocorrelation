@@ -112,6 +112,12 @@ The below picture shows a vertical line  with a high value with respect to the v
 
 Also a p-value is provided (p-value = 0.001), thus we can affirm that the variable Intrusion has a spatial dependence structure with a 99.999%.
 
+We can observe the values for the grid experiment:
+
+Permutations method for clustered grid | Permutations method for random grid
+----------|----------|
+![Grid qudrant](../master/img/permutations_method_clustered_grid.png?raw=true "Grid qudrant") | ![Simple grid](../master/img/permutations_method_random_grid.png?raw=true "Grid qudrant")
+
 Conclusions
 ===================
 First of all, we should be aware of the sources of the public data, in this study, we used data from a private company; this company perhaps distributed this data with a marketing purpose therefore we should be cautious with the results.
